@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing-Lexikon für Nicht-Marketers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8fafc;
+    }
+    .category-header {
+      background-color: #3b82f6;
+      color: white;
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      border-radius: 0.5rem 0.5rem 0 0;
+      margin-top: 2rem;
+    }
+    .term-row:nth-child(odd) {
+      background-color: #f1f5f9;
+    }
+    .term-row:nth-child(even) {
+      background-color: #ffffff;
+    }
+    .term-row:hover {
+      background-color: #e0f2fe;
+    }
+    @media print {
+      .no-print {
+        display: none;
+      }
+      body {
+        background-color: white;
+      }
+      .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container mx-auto px-4 py-8 max-w-5xl">
+    <header class="mb-8 text-center">
+      <h1 class="text-3xl font-bold text-gray-800 mb-2">Marketing-Lexikon</h1>
+      <p class="text-gray-600">Übersetzungsbibel für Kollegen außerhalb des Marketings</p>
+    </header>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <div class="category-header">Allgemeine Begriffe</div>
+      <div class="term-row p-4 border-b border-gray-200">
+        <div class="font-semibold text-gray-800 mb-1">Marketing</div>
+        <div class="text-gray-600">Alle Maßnahmen, um ein Produkt oder eine Dienstleistung bekannt zu machen und zu verkaufen.</div>
+      </div>
+      <div class="term-row p-4 border-b border-gray-200">
+        <div class="font-semibold text-gray-800 mb-1">Zielgruppe</div>
+        <div class="text-gray-600">Die Menschen, die wir mit unseren Angeboten erreichen wollen.</div>
+      </div>
+      <div class="term-row p-4 border-b border-gray-200">
+        <div class="font-semibold text-gray-800 mb-1">Kampagne</div>
+        <div class="text-gray-600">Eine geplante Aktion oder Serie von Maßnahmen, z. B. eine Werbung über mehrere Kanäle (Online, Print, Events).</div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden mt-8">
+      <div class="category-header">Online & Digital</div>
+      <div class="term-row p-4 border-b border-gray-200">
+        <div class="font-semibold text-gray-800 mb-1">SEO (Search Engine Optimization)</div>
+        <div class="text-gray-600">Maßnahmen, um bei Google besser gefunden zu werden.</div>
+      </div>
+      <div class="term-row p-4 border-b border-gray-200">
+        <div class="font-semibold text-gray-800 mb-1">SEA (Search Engine Advertising)</div>
+        <div class="text-gray-600">Bezahlte Werbung in Suchmaschinen wie Google Ads.</div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden mt-8">
+      <div class="category-header">E-Mail & Newsletter</div>
+      <div class="term-row p-4 border-b border-gray-200">
+        <div class="font-semibold text-gray-800 mb-1">Newsletter</div>
+        <div class="text-gray-600">Regelmäßige E-Mails mit Neuigkeiten, Angeboten oder Informationen.</div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden mt-8">
+      <div class="category-header">Social Media & Kommunikation</div>
+      <div class="term-row p-4 border-b border-gray-200">
+        <div class="font-semibold text-gray-800 mb-1">Reichweite</div>
+        <div class="text-gray-600">Wie viele Personen einen Beitrag oder eine Anzeige gesehen haben.</div>
+      </div>
+    </div>
+
+    <footer class="mt-8 text-center text-gray-500 text-sm">
+      <p>© 2025 Marketing-Lexikon</p>
+    </footer>
+  </div>
+</body>
+</html>
